@@ -115,7 +115,7 @@ void lcdWrite(String s1, String s2) {
 String cFloat(float val) {
   String valueString = "";
   char buff[10];
-  dtostrf(val, 2, 2, buff);  //4 is mininum width, 6 is precision
+  dtostrf(val, 2, 2, buff); 
   valueString += buff;
   return valueString;
 }
